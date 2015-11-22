@@ -32,7 +32,7 @@
 .mdl-icon-toggle__input {
   line-height: $icon-toggle-size;
 
-  .mdl-icon-toggle.is-upgraded & {
+  .mdl-icon-toggle.mdl-icon-toggle--upgraded & {
     // Hide input element, while still making it respond to focus.
     position: absolute;
     width: 0;
@@ -71,21 +71,21 @@
     font-size: $icon-toggle-font-size;
   }
 
-  .mdl-icon-toggle.is-checked & {
+  .mdl-icon-toggle.mdl-icon-toggle--checked & {
     color: $icon-toggle-checked-color;
   }
 
-  .mdl-icon-toggle.is-disabled & {
+  .mdl-icon-toggle.mdl-icon-toggle--disabled & {
     color: $icon-toggle-disabled-color;
     cursor: auto;
     transition: none;
   }
 
-  .mdl-icon-toggle.is-focused & {
+  .mdl-icon-toggle.mdl-icon-toggle--focused & {
     background-color: $icon-toggle-focus-color;
   }
 
-  .mdl-icon-toggle.is-focused.is-checked & {
+  .mdl-icon-toggle.mdl-icon-toggle--focused.mdl-icon-toggle--checked & {
     background-color: $icon-toggle-checked-focus-color;
   }
 }
@@ -111,11 +111,11 @@
     background: $icon-toggle-color;
   }
 
-  .mdl-icon-toggle.is-disabled & {
+  .mdl-icon-toggle.mdl-icon-toggle--disabled & {
     cursor: auto;
   }
 
-  .mdl-icon-toggle.is-disabled & .mdl-ripple {
+  .mdl-icon-toggle.mdl-icon-toggle--disabled & .mdl-ripple {
     background: transparent;
   }
 }
