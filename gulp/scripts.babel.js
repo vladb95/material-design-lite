@@ -14,7 +14,7 @@ const JSSOURCES = [
   'src/icon-toggle/icon-toggle.babel.js',
   // 'src/menu/menu.babel.js',
   'src/progress/progress.babel.js',
-  // 'src/radio/radio.babel.js',
+  'src/radio/radio.babel.js',
   // 'src/slider/slider.babel.js',
   'src/snackbar/snackbar.babel.js',
   // 'src/spinner/spinner.babel.js',

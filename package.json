@@ -78,7 +78,8 @@
   "eslintConfig": {
     "extends": "google",
     "globals": {
-      "window": false
+      "window": false,
+      "document": false
     },
     "rules": {
       "dot-notation": 0,
