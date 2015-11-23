@@ -56,11 +56,11 @@
   color: $tab-text-color;
   overflow: hidden;
 
-  .mdl-tabs.is-upgraded &.is-active {
+  .mdl-tabs.mdl-tabs--upgraded &.mdl-tabs--active {
     color: $tab-active-text-color;
   }
 
-  .mdl-tabs.is-upgraded &.is-active:after {
+  .mdl-tabs.mdl-tabs--upgraded &.mdl-tabs--active:after {
     height: 2px;
     width: 100%;
     display: block;
@@ -92,11 +92,11 @@
 .mdl-tabs__panel {
   display: block;
 
-  .mdl-tabs.is-upgraded & {
+  .mdl-tabs.mdl-tabs--upgraded & {
     display: none;
   }
 
-  .mdl-tabs.is-upgraded &.is-active {
+  .mdl-tabs.mdl-tabs--upgraded &.mdl-tabs--active {
     display: block;
   }
 }

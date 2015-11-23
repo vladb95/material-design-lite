@@ -19,7 +19,7 @@ const JSSOURCES = [
   'src/snackbar/snackbar.babel.js',
   // 'src/spinner/spinner.babel.js',
   // 'src/switch/switch.babel.js',
-  // 'src/tabs/tabs.babel.js',
+  'src/tabs/tabs.babel.js',
   // 'src/textfield/textfield.babel.js',
   // 'src/tooltip/tooltip.babel.js',
   // Complex components (which reuse base components)
